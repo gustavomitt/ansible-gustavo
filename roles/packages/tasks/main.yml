@@ -1,0 +1,8 @@
+---
+- name: Update APT
+  apt: update_cache=yes
+  become: yes
+
+- name: Install Minicom
+  apt: name=minicom
+  become: yes
