@@ -1,0 +1,6 @@
+---
+- name: Install Packages
+  become: true
+  apt:
+    name:
+      - minicom

@@ -2,7 +2,6 @@
 - hosts: all
 
   roles:
-     - packages
-#     - hardening
-#     - docker-host
-#     - { role: Datadog.datadog, datadog_api_key: "{{ datadog_api_key }}" }
+     - update
+     - minicom
+#     - arduino - Instalar manualmente

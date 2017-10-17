@@ -1,0 +1,5 @@
+---
+- name: Update APT
+  become: true
+  apt:
+    update_cache: yes
