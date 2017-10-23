@@ -1,0 +1,7 @@
+---
+- name: Install the apt-get packages
+  apt:
+    name:
+      sshpass
+    state: present
+  become: yes
